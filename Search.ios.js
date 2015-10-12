@@ -15,14 +15,14 @@ var styles = StyleSheet.create({
       backgroundColor: 'white'
     },
     container: {
-      flex:1
+      flex:1,
       justifyContent: 'center',
       alignItems: 'center'
     }
 });
 
 class Search extends Component {
-  render()[
+  render(){
     return (
       <View style={styles.container}>
         <Text style={styles.description}>
@@ -30,7 +30,7 @@ class Search extends Component {
         </Text>
       </View>
     );
-  ]
+    }
 }
 
 module.exports = Search;

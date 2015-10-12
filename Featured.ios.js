@@ -15,14 +15,14 @@ var styles = StyleSheet.create({
       backgroundColor: 'white'
     },
     container: {
-      flex:1
+      flex:1,
       justifyContent: 'center',
       alignItems: 'center'
     }
 });
 
 class Featured extends Component {
-  render()[
+  render(){
     return (
       <View style={styles.container}>
         <Text style={styles.description}>
@@ -30,7 +30,7 @@ class Featured extends Component {
         </Text>
       </View>
     );
-  ]
+    }
 }
 
 module.exports = Featured;
